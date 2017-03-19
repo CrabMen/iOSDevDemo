@@ -24,7 +24,7 @@
     
     
 //    test yue
-     [BDGuideView showDirection:BDArrowDirectionDown3 frame:CGRectMake(ScreenWidthFB -20,200,100, 20) imageFrame:CGRectMake(ScreenWidthFB - 40,200,30, 30) imageName:@"yueLiang" text:@"约妹妹一键搞定 。"];
+     [BDGuideView showDirection:BDArrowDirectionDown3 frame:CGRectMake(ScreenWidthFB -20,200,100, 20) imageFrame:CGRectMake(ScreenWidthFB - 40,200,30, 30) imageName:@"yueLiang" text:@"Test BDGuideView TEXT。"];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
