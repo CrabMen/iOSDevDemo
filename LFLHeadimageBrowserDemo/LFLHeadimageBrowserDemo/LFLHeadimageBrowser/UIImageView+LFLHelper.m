@@ -8,7 +8,6 @@
 
 #import "UIImageView+LFLHelper.h"
 #import <Photos/Photos.h>
-#import <objc/runtime.h>
 
 #define LFLANIMATEDURATION 0.3
 
