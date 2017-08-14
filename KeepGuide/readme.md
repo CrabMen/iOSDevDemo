@@ -3,7 +3,7 @@
 
 ##1.说明 可以一行代码实现新手引导界面常见文本提示(带箭头)
 
-![示意图](https://raw.githubusercontent.com/LFL2018/KeepGuide/master/1.gif)
+![示意图](1.gif)
 
 ### 1.1只显示一次已经内部处理,你只需要告诉我坐标和文本即可.
 
