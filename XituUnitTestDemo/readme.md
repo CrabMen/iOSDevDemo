@@ -1,7 +1,7 @@
 #  XituUnitTestDemo  
 
 ## 一个利用OCMock+GHU进行单元测试的Demo
-![示意图1](unittest.png)
+![示意图1](unitTest.png)
 
 
 # 3.Requirements
