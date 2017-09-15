@@ -1,9 +1,13 @@
 
-##掘金客户端适配`iOS11`简单记录<一>
+#掘金客户端适配`iOS11`简单记录<一>
+
+
+
 
 #### 前言:不怕苹果出新货,就怕新货齐刘海
 
 - [Xcode 9 GM seed](https://developer.apple.com/download/)
+- [WWDC Updating Your App for iOS 11](https://developer.apple.com/videos/play/wwdc2017/204/)
 - iPhone X的显示高度相对于iPhone 4.7 `top`44  `bottom` 34
 - [三分钟搞懂iPhone X设计尺寸和适配](http://www.jianshu.com/p/cf093e457698)
 
