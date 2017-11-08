@@ -7,6 +7,8 @@
 
 @interface XituGlobalConst : NSObject
 
+IPHONE_X 为宏定义 ,只需要判断高度是否812即可
+
 /**
  默认均为64 , IPHONE_X_为 84
  */
@@ -24,7 +26,7 @@
 
 + (CGFloat)navBarHeight{
     if (IPHONE_X_HEIGHT == kScreenHeight) {
-        return 84.0;
+        return 88.0;
     } else {
         return 64.0;
     }
@@ -32,7 +34,7 @@
 
 + (CGFloat)tabBarHeight{
     if (IPHONE_X_HEIGHT == kScreenHeight) {
-        return 82.0;
+        return 82.0;  // 
     } else {
         return 49.0;
     }
