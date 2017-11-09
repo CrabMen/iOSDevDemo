@@ -6,6 +6,9 @@
 
 - [**AdapteriOS11**](./AdapteriOS11/readme.md)
 
+### GIF内存优化处理Demo
+-  对于旧项目,采用 sdwebimage 4.0以下版本,可以参考 demo 
+
 ### LFLRandomCodeView 绘制图片随机验证码
 ![效果图](./LFLRandomCodeView/1.gif)
 
