@@ -1,7 +1,14 @@
 
 ##  iOS-adapter-iPhone X (interface)
 
-- 全局类处理nav,bar 等
+### Custom keyboard (布局)
+
+```
+_emotionKeyboard = [[XTEmotionKeyboard alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, (kScreenHeight == IPHONE_X_HEIGHT) ? 333 : 216)];
+
+```
+
+- 全局类处理`nav`,`bar` 等
 
 ```
 
