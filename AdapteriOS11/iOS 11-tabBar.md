@@ -1,8 +1,11 @@
 ## iOS 11 适配 tabbar 跳转界面
 
-- 跳转界面, tabbar 会跳跃,可以自定义tabbar解决
+- 跳转界面, tabbar 会跳跃
+- 可以自定义tabbar解决
 
-```
+
+```objc
+
 #import <UIKit/UIKit.h>
 
 @interface XTUITabBar : UITabBar
