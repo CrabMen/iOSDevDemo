@@ -13,6 +13,7 @@
 		87350F541FBEDCF500936BA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87350F531FBEDCF500936BA3 /* Assets.xcassets */; };
 		87350F571FBEDCF500936BA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87350F551FBEDCF500936BA3 /* LaunchScreen.storyboard */; };
 		87350F5A1FBEDCF500936BA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87350F591FBEDCF500936BA3 /* main.m */; };
+		87D8B2EA1FC28733006ECDA7 /* LFLMonitorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D8B2E91FC28733006ECDA7 /* LFLMonitorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		87350F561FBEDCF500936BA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87350F581FBEDCF500936BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87350F591FBEDCF500936BA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87D8B2E81FC28733006ECDA7 /* LFLMonitorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFLMonitorView.h; sourceTree = "<group>"; };
+		87D8B2E91FC28733006ECDA7 /* LFLMonitorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFLMonitorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		87350F491FBEDCF400936BA3 /* monitoringDemo */ = {
 			isa = PBXGroup;
 			children = (
+				87D8B2E71FC28712006ECDA7 /* LFLMonitor */,
 				87350F4A1FBEDCF400936BA3 /* AppDelegate.h */,
 				87350F4B1FBEDCF400936BA3 /* AppDelegate.m */,
 				87350F4D1FBEDCF500936BA3 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				87350F591FBEDCF500936BA3 /* main.m */,
 			);
 			path = monitoringDemo;
+			sourceTree = "<group>";
+		};
+		87D8B2E71FC28712006ECDA7 /* LFLMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				87D8B2E81FC28733006ECDA7 /* LFLMonitorView.h */,
+				87D8B2E91FC28733006ECDA7 /* LFLMonitorView.m */,
+			);
+			path = LFLMonitor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87D8B2EA1FC28733006ECDA7 /* LFLMonitorView.m in Sources */,
 				87350F4F1FBEDCF500936BA3 /* ViewController.m in Sources */,
 				87350F5A1FBEDCF500936BA3 /* main.m in Sources */,
 				87350F4C1FBEDCF400936BA3 /* AppDelegate.m in Sources */,
@@ -281,7 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HD29GU94HU;
 				INFOPLIST_FILE = monitoringDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Ming-Zhe.circle-ios.monitoringDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -296,7 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HD29GU94HU;
 				INFOPLIST_FILE = monitoringDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Ming-Zhe.circle-ios.monitoringDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
