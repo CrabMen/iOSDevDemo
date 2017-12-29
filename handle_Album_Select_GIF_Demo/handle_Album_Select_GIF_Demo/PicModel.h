@@ -11,6 +11,10 @@
 
 @interface PicModel : NSObject
 
+
+
++ (instancetype)picWithData:(NSData *)data image:(UIImage *)image;
+
 @property (nonatomic,strong) NSData *data; // 显示 GIF
 
 @property (nonatomic,strong)  UIImage *image; // 显示 非图片

@@ -10,4 +10,11 @@
 
 @implementation PicModel
 
++ (instancetype)picWithData:(NSData *)data image:(UIImage *)image{
+    PicModel *model =[[PicModel alloc]init];
+    model.data = data;
+    model.image = image;
+    return model;
+}
+
 @end

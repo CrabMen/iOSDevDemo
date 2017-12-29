@@ -7,7 +7,6 @@
 //
 
 #import "PicTestView.h"
-
 #import <FLAnimatedImage/FLAnimatedImageView.h>
 #import <FLAnimatedImage/FLAnimatedImage.h>
 
@@ -15,9 +14,10 @@
 
 - (void)setShowModel:(PicModel *)showModel{
     if (showModel.data) {
-     
+        self.image = nil;
       self.animatedImage =  [[FLAnimatedImage alloc]initWithAnimatedGIFData:showModel.data optimalFrameCacheSize:0 predrawingEnabled:YES];
     } else {
+        self.animatedImage = nil;
         self.image = showModel.image;
     }
 }

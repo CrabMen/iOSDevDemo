@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87A3C0E71FF62D4C00A0BA0F /* LFLHandlePicTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A3C0E61FF62D4C00A0BA0F /* LFLHandlePicTool.m */; };
 		87D99B411FF3A0C300653AE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D99B401FF3A0C300653AE7 /* AppDelegate.m */; };
 		87D99B441FF3A0C300653AE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D99B431FF3A0C300653AE7 /* ViewController.m */; };
-		87D99B471FF3A0C300653AE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D99B451FF3A0C300653AE7 /* Main.storyboard */; };
 		87D99B491FF3A0C300653AE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87D99B481FF3A0C300653AE7 /* Assets.xcassets */; };
-		87D99B4C1FF3A0C300653AE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D99B4A1FF3A0C300653AE7 /* LaunchScreen.storyboard */; };
 		87D99B4F1FF3A0C300653AE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D99B4E1FF3A0C300653AE7 /* main.m */; };
 		87E89DA61FF3AB4600800C86 /* PicTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E89DA51FF3AB4600800C86 /* PicTestView.m */; };
 		87E89DA91FF3AD5900800C86 /* PicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E89DA81FF3AD5900800C86 /* PicModel.m */; };
@@ -20,14 +19,14 @@
 
 /* Begin PBXFileReference section */
 		01B61D9454217B2B0E4865F8 /* libPods-handle_Album_Select_GIF_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-handle_Album_Select_GIF_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A3C0E51FF62D4C00A0BA0F /* LFLHandlePicTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFLHandlePicTool.h; sourceTree = "<group>"; };
+		87A3C0E61FF62D4C00A0BA0F /* LFLHandlePicTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFLHandlePicTool.m; sourceTree = "<group>"; };
 		87D99B3C1FF3A0C300653AE7 /* handle_Album_Select_GIF_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = handle_Album_Select_GIF_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D99B3F1FF3A0C300653AE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		87D99B401FF3A0C300653AE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		87D99B421FF3A0C300653AE7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		87D99B431FF3A0C300653AE7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		87D99B461FF3A0C300653AE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87D99B481FF3A0C300653AE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		87D99B4B1FF3A0C300653AE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87D99B4D1FF3A0C300653AE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87D99B4E1FF3A0C300653AE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		87E89DA41FF3AB4600800C86 /* PicTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PicTestView.h; sourceTree = "<group>"; };
@@ -84,13 +83,13 @@
 				87D99B401FF3A0C300653AE7 /* AppDelegate.m */,
 				87D99B421FF3A0C300653AE7 /* ViewController.h */,
 				87D99B431FF3A0C300653AE7 /* ViewController.m */,
+				87A3C0E51FF62D4C00A0BA0F /* LFLHandlePicTool.h */,
+				87A3C0E61FF62D4C00A0BA0F /* LFLHandlePicTool.m */,
 				87E89DA41FF3AB4600800C86 /* PicTestView.h */,
 				87E89DA51FF3AB4600800C86 /* PicTestView.m */,
 				87E89DA71FF3AD5900800C86 /* PicModel.h */,
 				87E89DA81FF3AD5900800C86 /* PicModel.m */,
-				87D99B451FF3A0C300653AE7 /* Main.storyboard */,
 				87D99B481FF3A0C300653AE7 /* Assets.xcassets */,
-				87D99B4A1FF3A0C300653AE7 /* LaunchScreen.storyboard */,
 				87D99B4D1FF3A0C300653AE7 /* Info.plist */,
 				87D99B4E1FF3A0C300653AE7 /* main.m */,
 			);
@@ -166,9 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87D99B4C1FF3A0C300653AE7 /* LaunchScreen.storyboard in Resources */,
 				87D99B491FF3A0C300653AE7 /* Assets.xcassets in Resources */,
-				87D99B471FF3A0C300653AE7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,31 +230,13 @@
 				87D99B441FF3A0C300653AE7 /* ViewController.m in Sources */,
 				87D99B4F1FF3A0C300653AE7 /* main.m in Sources */,
 				87D99B411FF3A0C300653AE7 /* AppDelegate.m in Sources */,
+				87A3C0E71FF62D4C00A0BA0F /* LFLHandlePicTool.m in Sources */,
 				87E89DA91FF3AD5900800C86 /* PicModel.m in Sources */,
 				87E89DA61FF3AB4600800C86 /* PicTestView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		87D99B451FF3A0C300653AE7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				87D99B461FF3A0C300653AE7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		87D99B4A1FF3A0C300653AE7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				87D99B4B1FF3A0C300653AE7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		87D99B501FF3A0C300653AE7 /* Debug */ = {
@@ -372,7 +351,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HD29GU94HU;
 				INFOPLIST_FILE = handle_Album_Select_GIF_Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Ming-Zhe.circle-ios.handle-Album-Select-GIF-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -388,7 +367,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HD29GU94HU;
 				INFOPLIST_FILE = handle_Album_Select_GIF_Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Ming-Zhe.circle-ios.handle-Album-Select-GIF-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
