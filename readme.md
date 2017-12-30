@@ -23,6 +23,7 @@
 
 -  [对于旧项目,采用 sdwebimage 4.0以下版本,可以参考 demo](./GIF-Optimize) 
 -  [相册选取 GIF处理,展示,浏览和优化内存占用...](./handle_Album_Select_GIF_Demo)
+- ![example](./handle_Album_Select_GIF_Demo/GIFExample.gif)
 
 ### <a name="LFLRandomCodeView"></a> LFLRandomCodeView绘制图片随机验证码
 
