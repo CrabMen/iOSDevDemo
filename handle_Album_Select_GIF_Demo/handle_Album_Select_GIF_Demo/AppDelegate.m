@@ -20,10 +20,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    ViewController *VC =[[ViewController alloc]init];
     self.window = [[UIWindow alloc]init];
     self.window.backgroundColor =[UIColor whiteColor];
-    self.window.rootViewController = VC;
+    ViewController *VC =[[ViewController alloc]init];
+    UINavigationController *nav =[[UINavigationController alloc]initWithRootViewController:VC];
+    self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     return YES;
 }

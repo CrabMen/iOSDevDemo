@@ -58,6 +58,33 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		879C383A1FF65BE100F2D982 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				87A3C0E51FF62D4C00A0BA0F /* LFLHandlePicTool.h */,
+				87A3C0E61FF62D4C00A0BA0F /* LFLHandlePicTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		879C383B1FF65BE900F2D982 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				87E89DA41FF3AB4600800C86 /* PicTestView.h */,
+				87E89DA51FF3AB4600800C86 /* PicTestView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		879C383C1FF65BF200F2D982 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				87E89DA71FF3AD5900800C86 /* PicModel.h */,
+				87E89DA81FF3AD5900800C86 /* PicModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		87D99B331FF3A0C300653AE7 = {
 			isa = PBXGroup;
 			children = (
@@ -83,12 +110,9 @@
 				87D99B401FF3A0C300653AE7 /* AppDelegate.m */,
 				87D99B421FF3A0C300653AE7 /* ViewController.h */,
 				87D99B431FF3A0C300653AE7 /* ViewController.m */,
-				87A3C0E51FF62D4C00A0BA0F /* LFLHandlePicTool.h */,
-				87A3C0E61FF62D4C00A0BA0F /* LFLHandlePicTool.m */,
-				87E89DA41FF3AB4600800C86 /* PicTestView.h */,
-				87E89DA51FF3AB4600800C86 /* PicTestView.m */,
-				87E89DA71FF3AD5900800C86 /* PicModel.h */,
-				87E89DA81FF3AD5900800C86 /* PicModel.m */,
+				879C383A1FF65BE100F2D982 /* Tool */,
+				879C383B1FF65BE900F2D982 /* Views */,
+				879C383C1FF65BF200F2D982 /* Models */,
 				87D99B481FF3A0C300653AE7 /* Assets.xcassets */,
 				87D99B4D1FF3A0C300653AE7 /* Info.plist */,
 				87D99B4E1FF3A0C300653AE7 /* main.m */,

@@ -27,7 +27,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    PicTestView *imageView =[[PicTestView alloc]initWithFrame:CGRectMake(0, 100, 200, 200)];
+    self.title = @"点击空白处选取照片";
+    PicTestView *imageView =[[PicTestView alloc]initWithFrame:CGRectMake(0, 0, 200, 200)];
+    imageView.center = self.view.center;
     imageView.backgroundColor =[UIColor grayColor];
     [self.view addSubview:imageView];
     self.imageView = imageView;
@@ -46,9 +48,11 @@
     @autoreleasepool {
         __weak typeof(self) ws=self;
         [LFLHandlePicTool HandlingImageByInfo:info imageModelSuccessBlock:^(PicModel *modelInfo) {
-            ws.imageView.showModel = modelInfo;
+            __strong typeof(self) strongSelf=ws;
+            strongSelf.imageView.showModel = modelInfo;
         } imageModelFailureBlock:^(PicModel *modelInfo) {
-            ws.imageView.showModel = modelInfo;
+            __strong typeof(self) strongSelf=ws;
+            strongSelf.imageView.showModel = modelInfo;
         }];
         [self dismissViewControllerAnimated:YES completion:nil];
     }

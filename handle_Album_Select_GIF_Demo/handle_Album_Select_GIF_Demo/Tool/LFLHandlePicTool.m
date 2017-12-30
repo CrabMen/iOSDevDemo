@@ -14,11 +14,10 @@
 @implementation LFLHandlePicTool
 
 + (void)HandlingImageByInfo:(NSDictionary *)info imageModelSuccessBlock:(void (^)(PicModel *))imageModelSuccessBlock imageModelFailureBlock:(void (^)(PicModel *))imageModelFailureBlock{
+    NSURL *originSourceURL = [info objectForKey:UIImagePickerControllerReferenceURL];
     
-    // UIImagePickerControllerReferenceURL  iOS 10 过期 
-    NSString *assetString = [[info objectForKey:UIImagePickerControllerReferenceURL] absoluteString];
     // handle GIF
-    if([assetString hasSuffix:@"GIF"]){
+    if([originSourceURL.absoluteString hasSuffix:@"GIF"]){
         ALAssetsLibrary *assetLibrary = [[ALAssetsLibrary alloc]init];
         [assetLibrary assetForURL:[info objectForKey:UIImagePickerControllerReferenceURL] resultBlock:^(ALAsset *asset) {
             ALAssetRepresentation *re = [asset representationForUTI:(__bridge NSString *)kUTTypeGIF];;
@@ -37,6 +36,12 @@
         if (imageModelSuccessBlock) imageModelSuccessBlock( [PicModel picWithData:nil image:info[UIImagePickerControllerOriginalImage]]);
     }
 }
+
+
+
+
+
+
 
 
 @end
