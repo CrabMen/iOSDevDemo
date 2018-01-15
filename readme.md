@@ -12,6 +12,7 @@
 *   **[一个利用OCMock+GHU进行单元测试的Demo](#iOS_test)**
 *   **[FaceID&&TouchID](./FaceID&&TouchID.md)**
 *   **[CodeSnippets](./others)**
+*   **[InterviewExampleCode](./InterviewExampleCode)**
 
 ### <a name="iOS11+iPhoneX"></a> AdapteriOS11 and iPhoneX
 
