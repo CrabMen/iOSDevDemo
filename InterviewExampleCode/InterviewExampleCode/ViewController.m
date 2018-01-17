@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LFLConstInlineHeader.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+//    LFLImagePlaceholder()
     
 //    [self dispatch_queue_tDemo];
 //    [self dispatch_semaphore_tDemo];
@@ -40,8 +43,6 @@
     NSLog(@"%zd", j);
 
 }
-
-
 
 /**
  为线程加锁

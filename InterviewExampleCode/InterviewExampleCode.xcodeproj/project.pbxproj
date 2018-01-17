@@ -26,6 +26,7 @@
 		874C0E42200C963500B2EDC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		874C0E44200C963500B2EDC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		874C0E45200C963500B2EDC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87977147200F389E0076DB22 /* LFLConstInlineHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFLConstInlineHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 				874C0E4C200C965700B2EDC7 /* AppDelegate */,
 				874C0E39200C963500B2EDC7 /* ViewController.h */,
 				874C0E3A200C963500B2EDC7 /* ViewController.m */,
+				87977147200F389E0076DB22 /* LFLConstInlineHeader.h */,
 				874C0E4D200C966900B2EDC7 /* resource */,
 				874C0E44200C963500B2EDC7 /* Info.plist */,
 				874C0E45200C963500B2EDC7 /* main.m */,
