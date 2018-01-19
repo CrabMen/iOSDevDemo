@@ -13,6 +13,13 @@
 *   **[FaceID&&TouchID](./FaceID&&TouchID.md)**
 *   **[CodeSnippets](./others)**
 *   **[InterviewExampleCode](./InterviewExampleCode)**
+*   **[列表预加载处理方案Demo](./preloadListData)**
+
+### <a name="preloadListData"></a> 列表预加载处理方案
+
+- [列表预加载处理方案Demo](./preloadListData)
+
+
 
 ### <a name="iOS11+iPhoneX"></a> AdapteriOS11 and iPhoneX
 
