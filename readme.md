@@ -7,6 +7,7 @@
 *   **[一个利用OCMock+GHU进行单元测试的Demo](#iOS_test)**
 *   **[CodeSnippets && FaceID&&TouchID](./others)**
 *   **[InterviewExampleCode](./InterviewExampleCode)**
+*   **[sharedInstanceDemo&&destroy](./sharedInstanceDemo)**
 
 ###  UIDemo
 
