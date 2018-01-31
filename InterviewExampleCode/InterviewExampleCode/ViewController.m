@@ -24,7 +24,47 @@
 //    [self dispatch_semaphore_tDemo];
 }
 
+/**
+ 多个图片上传后, block 回调 URL ,按照顺序装入新数组
+ */
+- (void)picsUploadDemoimages:(NSArray *)images{
+    NSMutableArray *picUrlArray = [NSMutableArray array];
+    for (int i = 0; i < images.count; i++) {
+        [picUrlArray addObject:[NSNull null]];
+    }
+    dispatch_queue_t queue = dispatch_queue_create(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    dispatch_group_t dispatchGroup = dispatch_group_create();
+        for (NSInteger i = 0; i < images.count; i ++) {
+//            UIImage *image = images[i];
+            dispatch_group_async(dispatchGroup, queue, ^{
+                dispatch_group_enter(dispatchGroup);
+                [self uploadDemoSucessBlock:^(NSString *url) {
+                    NSLock * lock = [[NSLock alloc]init];
+                    [lock lock];
+                    picUrlArray[i] = url;
+                    [lock unlock];
+                    dispatch_group_leave(dispatchGroup);
+                } ErrorBlock:^{
+                       dispatch_group_leave(dispatchGroup);
+                } index:i];
+            });
+        }
+    dispatch_group_notify(dispatchGroup, queue, ^{
+       if (picUrlArray.count == images.count && picUrlArray.firstObject != nil) {
+       // 已经传完毕
+       }
+    });
+ 
+}
 
+
+- (void)uploadDemoSucessBlock:(void (^)(NSString *))SucessBlock
+                    ErrorBlock:(void (^)(void))errorBlock
+                        index:(NSInteger)index{
+    if (SucessBlock) {
+        SucessBlock([NSString stringWithFormat:@"%ld-PicURL",index]);
+    }
+}
 
 /**
  保持线程同步
