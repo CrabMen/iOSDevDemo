@@ -1,7 +1,7 @@
-# this repo record iOS dev demo...
+# this repo record iOS dev Code...
 
 *  详细细节还需要看各个demo文件夹说明, readme可能有些写得不详细.
-*  [具体参考下面的 example 展示图](#example_GIF)
+*  部分 code Demo 参考此文件最下方的展示示意图`example_GIF`
 
 ##  content  list  
 
@@ -38,7 +38,7 @@
 
 
 
-##  <a name="example_GIF "></a> Example GIF 
+##  <a name="Example_GIF "></a> Example_GIF 
 
 - ![](./iOS/XituUnitTestDemo/unitTest.png)
 - ![](./UIDemos/KeepGuide/1.gif)
