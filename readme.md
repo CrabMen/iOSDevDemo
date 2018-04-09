@@ -5,6 +5,8 @@
 
 ##  content  list  
 
+*  **沸点多图选择器demo**[XTPhotoPicker](./iOS/XTPhotoPicker/readme.md)
+
 *   **项目涉及GIF有关处理,性能优化demo**
 	
 	- [对于旧项目,采用 sdwebimage 4.0以下版本,可以参考 demo](./GIFDemo/GIF-Optimize) 
