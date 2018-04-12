@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LFLCameraAndPhotoTool.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    LFLCameraAndPhotoTool *tool = [LFLCameraAndPhotoTool shareInstance];
+    
+    [tool showPhotoInViewController:self photoDataBlock:^(UIImage *image, NSData *gifData, NSString *videoPath) {
+        NSLog(@"%@",image);
+    }];
 }
 
 

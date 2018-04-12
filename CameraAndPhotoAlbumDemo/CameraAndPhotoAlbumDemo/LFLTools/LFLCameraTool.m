@@ -8,6 +8,7 @@
 
 #import "LFLCameraTool.h"
 #import <UIKit/UIKit.h>
+#import <AssetsLibrary/AssetsLibrary.h>
 #import <MobileCoreServices/MobileCoreServices.h>
 
 @interface LFLCameraTool ()<UINavigationControllerDelegate, UIImagePickerControllerDelegate>
@@ -20,11 +21,15 @@
 - (void)configurationImagePickerWithVC:(UIViewController *)VC{
     UIImagePickerController *pickVC = [[UIImagePickerController alloc]init];
     pickVC.sourceType = UIImagePickerControllerSourceTypeCamera;
-    NSString *requreMediaType = (__bridge NSString *)kUTTypeImage;
+        // video 参考注释代码
+    NSString *requreMediaType = (__bridge NSString *)kUTTypeImage; // (__bridge NSString *)kUTTypeMovie
     pickVC.mediaTypes = @[requreMediaType];
     pickVC.allowsEditing = YES;
     pickVC.cameraFlashMode = UIImagePickerControllerCameraFlashModeAuto;
     pickVC.delegate = self;
+    //    拍摄视频质量 和时间
+//    pickVC.videoQuality = UIImagePickerControllerQualityTypeHigh;
+//    pickVC.videoMaximumDuration = 30;
     [VC.navigationController presentViewController:pickVC animated:YES completion:nil];
 }
 
@@ -42,7 +47,26 @@
     //   3. 图片保存
 //    SEL saveImage = @selector(image :didFinishSavingWithError:contextInfo:);
 //    UIImageWriteToSavedPhotosAlbum(nil, self, saveImage, nil);
+    
+    // video
+    if ([mediaType isEqualToString:(__bridge NSString *)kUTTypeMovie]) {
+        NSDictionary *movieInfo = [editingInfo objectForKey:UIImagePickerControllerMediaMetadata];
+        //        拿到URl
+        NSURL *urlVideo = [movieInfo objectForKey:UIImagePickerControllerMediaURL];
+        [self saveMediaUrl:urlVideo];
+    }
+    
     [self imagePickerControllerDidCancel:picker];
+}
+
+///保存视频
+- (void)saveMediaUrl:(NSURL *)url{
+//    ALAssetsLibrary *asLib = [ALAssetsLibrary new];
+//    [asLib writeVideoAtPathToSavedPhotosAlbum:url completionBlock:^(NSURL *assetURL, NSError *error) {
+//        if (error) {
+//            NSLog(@"保存失败");
+//        }
+//    }];
 }
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker{
@@ -96,6 +120,5 @@
     }
     return 0;
 }
-
 
 @end

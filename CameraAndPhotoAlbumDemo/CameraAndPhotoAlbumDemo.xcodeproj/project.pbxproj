@@ -14,6 +14,7 @@
 		872C3119207E1CDF00452726 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 872C3117207E1CDF00452726 /* LaunchScreen.storyboard */; };
 		872C311C207E1CDF00452726 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 872C311B207E1CDF00452726 /* main.m */; };
 		872C3125207E1D4A00452726 /* LFLCameraTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 872C3124207E1D4A00452726 /* LFLCameraTool.m */; };
+		87A4A604207EFBDC00FC5B06 /* LFLCameraAndPhotoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A4A603207EFBDC00FC5B06 /* LFLCameraAndPhotoTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		872C311B207E1CDF00452726 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		872C3123207E1D4A00452726 /* LFLCameraTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFLCameraTool.h; sourceTree = "<group>"; };
 		872C3124207E1D4A00452726 /* LFLCameraTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFLCameraTool.m; sourceTree = "<group>"; };
+		87A4A602207EFBDC00FC5B06 /* LFLCameraAndPhotoTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFLCameraAndPhotoTool.h; sourceTree = "<group>"; };
+		87A4A603207EFBDC00FC5B06 /* LFLCameraAndPhotoTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFLCameraAndPhotoTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 			children = (
 				872C3123207E1D4A00452726 /* LFLCameraTool.h */,
 				872C3124207E1D4A00452726 /* LFLCameraTool.m */,
+				87A4A602207EFBDC00FC5B06 /* LFLCameraAndPhotoTool.h */,
+				87A4A603207EFBDC00FC5B06 /* LFLCameraAndPhotoTool.m */,
 			);
 			path = LFLTools;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 				872C311C207E1CDF00452726 /* main.m in Sources */,
 				872C310E207E1CDE00452726 /* AppDelegate.m in Sources */,
 				872C3125207E1D4A00452726 /* LFLCameraTool.m in Sources */,
+				87A4A604207EFBDC00FC5B06 /* LFLCameraAndPhotoTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
