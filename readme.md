@@ -1,4 +1,4 @@
-# this repo record iOS dev Code...
+# this repo record iOS dev Demo code ...
 
 *  详细细节还需要看各个demo文件夹说明, readme可能有些写得不详细.
 
@@ -6,7 +6,21 @@
 
 ##  content  list  
 
+-  DevDemo  
+	- [一个利用OCMock+GHU进行单元测试的Demo](./1-DevDemo/XituUnitTestDemo)
+	- [sharedInstanceDemo&&destroy](./1-DevDemo/sharedInstanceDemo)
+	- [一个简单私有化pod的demo](./1-DevDemo/PodPrivate_demo)
+		- [参考流程文档](https://github.com/DevDragonLi/Dev-Repo/tree/master/Pods)
+	- [ReactiveObjCDemo-早期code](./1-DevDemo/ReactiveObjCDemo)
+		- 后期代码迁移补充
+	- [CodeSnippets && FaceID&&TouchID](./1-DevDemo)
+
 *  **沸点多图选择器demo**[XTPhotoPicker](./iOS/XTPhotoPicker/readme.md)
+
+	
+	- [列表预加载处理方案](./iOS/preloadListData)
+	- [InterviewExampleCode](./iOS/InterviewExampleCode)
+
 
 *   **项目涉及GIF有关处理,性能优化demo**
 	
@@ -16,11 +30,6 @@
 
 *   **devDemo**
 
-	- [一个利用OCMock+GHU进行单元测试的](./iOS/XituUnitTestDemo)
-	- [sharedInstanceDemo&&destroy](./iOS/sharedInstanceDemo)
-	- [列表预加载处理方案](./iOS/preloadListData)
-	- [InterviewExampleCode](./iOS/InterviewExampleCode)
-	- [CodeSnippets && FaceID&&TouchID](./iOS)
 
 
 *   **AdapteriOS11 and iPhoneX**
