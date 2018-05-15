@@ -13,11 +13,5 @@ class TLCollectionTableViewCell: UITableViewCell {
     @IBOutlet var titleLabel: UILabel!
     @IBOutlet var subTitleLabel: UILabel!
     
-    
-    override func awakeFromNib() {
-    
-        //
-    
-    }
-    
+
 }

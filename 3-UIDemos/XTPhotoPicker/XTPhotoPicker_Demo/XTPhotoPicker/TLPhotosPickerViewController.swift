@@ -646,39 +646,41 @@ extension TLPhotosPickerViewController: UICollectionViewDelegate,UICollectionVie
             cell.indicator?.stopAnimating()
         }
         
-        cell.tapRightChooseBlock = {
-            
-                    guard let collection = self.focusedCollection, let cell = self.collectionView.cellForItem(at: indexPath) as? TLPhotoCollectionViewCell else { return }
+        cell.tapRightChooseBlock = { [weak self] () in
+            guard let strongSelf = self else {
+                return
+            }
+                    guard let collection = strongSelf.focusedCollection, let cell = strongSelf.collectionView.cellForItem(at: indexPath) as? TLPhotoCollectionViewCell else { return }
                     if collection.useCameraButton && indexPath.row == 0 {
-                        if let _ = self.configure.cameraCellNibSet?.nibName {
+                        if let _ = strongSelf.configure.cameraCellNibSet?.nibName {
                             cell.selectedCell()
                         }else {
-                            self.logDelegate?.selectedCameraCell(picker: self)
-                            self.showCameraIfAuthorized()
+                            strongSelf.logDelegate?.selectedCameraCell(picker: strongSelf)
+                            strongSelf.showCameraIfAuthorized()
                         }
                     }
                     guard var asset = collection.getTLAsset(at: indexPath.row) else { return }
                     cell.popScaleAnim()
-                    if let index = self.selectedAssets.index(where: { $0.phAsset == asset.phAsset }) {
+                    if let index = strongSelf.selectedAssets.index(where: { $0.phAsset == asset.phAsset }) {
                         //deselect
-                        self.logDelegate?.deselectedPhoto(picker: self, at: indexPath.row)
-                        self.selectedAssets.remove(at: index)
-                        self.selectedAssets = self.selectedAssets.enumerated().compactMap({ (offset,asset) -> TLPHAsset? in
+                        strongSelf.logDelegate?.deselectedPhoto(picker: strongSelf, at: indexPath.row)
+                        strongSelf.selectedAssets.remove(at: index)
+                        strongSelf.selectedAssets = strongSelf.selectedAssets.enumerated().compactMap({ (offset,asset) -> TLPHAsset? in
                             var asset = asset
                             asset.selectedOrder = offset + 1
                             return asset
                         })
                         cell.selectedAsset = false
-                        self.orderUpdateCells()
+                        strongSelf.orderUpdateCells()
                         
                     }else {
-                        self.logDelegate?.selectedPhoto(picker: self, at: indexPath.row)
-                        guard !self.maxCheck() else { return }
-                        asset.selectedOrder = self.selectedAssets.count + 1
-                        self.selectedAssets.append(asset)
+                        strongSelf.logDelegate?.selectedPhoto(picker: strongSelf, at: indexPath.row)
+                        guard !strongSelf.maxCheck() else { return }
+                        asset.selectedOrder = strongSelf.selectedAssets.count + 1
+                        strongSelf.selectedAssets.append(asset)
                         cell.selectedAsset = true
                     }
-                  self.updateCountButton()
+                  strongSelf.updateCountButton()
         }
         if let phAsset = asset.phAsset {
             if self.usedPrefetch {
