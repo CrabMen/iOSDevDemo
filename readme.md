@@ -1,8 +1,15 @@
 # this repo record iOS dev Demo code ...
 
-*  详细细节还需要看各个demo文件夹说明, readme可能有些写得不详细.
+*  详细细节还需要看各个demo文件夹说明, readme可能有些写得不详细,部分`code Demo` 参考此文件最下方的展示示意图`example_GIF`
+- **clone repo** 
 
-*  部分`code Demo` 参考此文件最下方的展示示意图`example_GIF`
+``` 
+提升clone 速度 使用此句:
+git clone --depth 3 https://github.com/DevDragonLi/Dev-Repo
+
+避免直接执行 :
+git clone https://github.com/DevDragonLi/Dev-Repo
+```
 
 ## root demo list (doing)
 
