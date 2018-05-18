@@ -1,15 +1,18 @@
 # this repo record iOS dev Demo code ...
 
+ [![star this repo](http://githubbadges.com/star.svg?user=DevDragonLi&repo=iOSDevDemo)](http://github.com/DevDragonLi/iOSDevDemo)
+ [![fork this repo](http://githubbadges.com/fork.svg?user=DevDragonLi&repo=iOSDevDemo)](http://github.com/DevDragonLi/iOSDevDemo/fork)
+
+## Stargazers over time
+
+[![Stargazers over time](https://starcharts.herokuapp.com/DevDragonLi/iOSDevDemo.svg)](https://starcharts.herokuapp.com/DevDragonLi/iOSDevDemo)
+
 *  详细细节还需要看各个demo文件夹说明, readme可能有些写得不详细,部分`code Demo` 参考此文件最下方的展示示意图`example_GIF`
-- **clone repo** 
 
-``` 
-提升clone 速度 使用此句:
-git clone --depth 3 https://github.com/DevDragonLi/Dev-Repo
+* **recommend clone **
 
-避免直接执行 :
-git clone https://github.com/DevDragonLi/Dev-Repo
-```
+> `git clone --depth 3 https://github.com/DevDragonLi/iOSDevDemo`
+
 
 ## root demo list (doing)
 
