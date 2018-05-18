@@ -40,6 +40,8 @@
 	- 头像点击查看大图和保存功能demo
 		- [OC](./3-UIDemos/LFLHeadimageBrowserDemo)
 		- [Swift](https://github.com/DevDragonLi/SwiftCodeRepo/tree/master/LFLHeadimageBrowserDemo)
+	- [TableViewCell依次插入动画](./3-UIDemos/TableViewCell依次插入动画)
+
 
 - **AdapteriOS11 and iPhoneX** 
 	- [**iOS-adapter-iPhoneX**](./2-AdapteriOS11/iOS-adapter-iPhoneX.md)
