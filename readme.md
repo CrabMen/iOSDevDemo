@@ -1,9 +1,10 @@
 # iOS Dev Demo code
 
-</p>
-<p align='center'>
 [![star this repo](http://githubbadges.com/star.svg?user=DevDragonLi&repo=iOSDevDemo)](http://github.com/DevDragonLi/iOSDevDemo)
  [![fork this repo](http://githubbadges.com/fork.svg?user=DevDragonLi&repo=iOSDevDemo)](http://github.com/DevDragonLi/iOSDevDemo/fork)
+
+</p>
+<p align='center'>
 <img src="https://img.shields.io/badge/build-passing-brightgreen.svg">
 <img src="https://img.shields.io/badge/platform-iOS-ff69b4.svg">
 <img src="https://img.shields.io/badge/language-Objective--C-orange.svg">
