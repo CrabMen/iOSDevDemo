@@ -1,10 +1,9 @@
 # iOS Dev Demo code
 
-[![star this repo](http://githubbadges.com/star.svg?user=DevDragonLi&repo=iOSDevDemo)](http://github.com/DevDragonLi/iOSDevDemo)
- [![fork this repo](http://githubbadges.com/fork.svg?user=DevDragonLi&repo=iOSDevDemo)](http://github.com/DevDragonLi/iOSDevDemo/fork)
-
 </p>
 <p align='center'>
+<img src="http://githubbadges.com/star.svg?user=DevDragonLi&repo=iOSDevDemo">
+<img src="http://githubbadges.com/fork.svg?user=DevDragonLi&repo=iOSDevDemo">
 <img src="https://img.shields.io/badge/build-passing-brightgreen.svg">
 <img src="https://img.shields.io/badge/platform-iOS-ff69b4.svg">
 <img src="https://img.shields.io/badge/language-Objective--C-orange.svg">
@@ -15,7 +14,6 @@
 </p>
 
  
-
 ## Stargazers over time
 
 [![Stargazers over time](https://starcharts.herokuapp.com/DevDragonLi/iOSDevDemo.svg)](https://starcharts.herokuapp.com/DevDragonLi/iOSDevDemo)
