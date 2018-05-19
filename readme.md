@@ -1,7 +1,9 @@
 # iOS Dev Demo code
-</p>
+
  [![star this repo](http://githubbadges.com/star.svg?user=DevDragonLi&repo=iOSDevDemo)](http://github.com/DevDragonLi/iOSDevDemo)
  [![fork this repo](http://githubbadges.com/fork.svg?user=DevDragonLi&repo=iOSDevDemo)](http://github.com/DevDragonLi/iOSDevDemo/fork)
+
+</p>
 <img src="https://img.shields.io/badge/build-passing-brightgreen.svg">
 <img src="https://img.shields.io/badge/platform-iOS-ff69b4.svg">
 <img src="https://img.shields.io/badge/language-Objective--C-orange.svg">
@@ -32,12 +34,10 @@
 
 
 ##  <a name="Example_GIF "></a> Example_GIF 
-
-- ![](./1-DevDemo/XituUnitTestDemo/unitTest.png)
-- ![](./3-UIDemos/KeepGuide/1.gif)
-- ![](./3-UIDemos/LFLHeadimageBrowserDemo/NOpermission.gif)
-- ![](./4-GIFDemos/handle_Album_Select_GIF_Demo/GIFExample.gif)
-
+</p>
+<img src="./1-DevDemo/XituUnitTestDemo/unitTest.png" width="320">
+<br><img src="./3-UIDemos/KeepGuide/1.gif" width="320">
+</p>
 Requirements
 ==============
 
