@@ -1,7 +1,7 @@
 # iOS Dev Demo code
 
 </p>
-<p align='center'>
+<p align='left'>
 <img src="http://githubbadges.com/star.svg?user=DevDragonLi&repo=iOSDevDemo">
 <img src="http://githubbadges.com/fork.svg?user=DevDragonLi&repo=iOSDevDemo">
 <img src="https://img.shields.io/badge/build-passing-brightgreen.svg">
@@ -37,12 +37,16 @@
 ##  <a name="Example_GIF "></a> Example_GIF 
 </p>
 <img src="./1-DevDemo/XituUnitTestDemo/unitTest.png" width="320">
-<br><img src="./3-UIDemos/KeepGuide/1.gif" width="320">
+<img src="./3-UIDemos/KeepGuide/1.gif" width="320">
 </p>
+
+
 Requirements
 ==============
 
 library requires `iOS 6.0+` and `Xcode 6.0+`.
 
 
-# 3. 有任何问题，请及时 issues me`dragonli_52171@163.com`   
+# 有任何问题，请及时 issues me
+
+> dragonli_52171@163.com
